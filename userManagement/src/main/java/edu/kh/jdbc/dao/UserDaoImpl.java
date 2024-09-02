@@ -166,6 +166,7 @@ public class UserDaoImpl implements UserDao{
 				String userName  = rs.getString("USER_NAME");
 				String enrollDate  = rs.getString("ENROLL_DATE");
 				
+				
 				User user 
 					= new User(userNo, userId, userPw, userName, enrollDate);
 				
